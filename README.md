@@ -1,2 +1,2 @@
 # efficient-architectures-speech-enhancement
-Audio samples for the paper "Efficient Neural Architectures for Speech Enhancement"
+Audio samples for the paper "Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids"
