@@ -1,5 +1,6 @@
 # Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids
-Audio samples used in perceptual evaluation for the paper "_Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids_".
+
+Audio samples for the paper "_Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids_".
 
 ## Organization
 
