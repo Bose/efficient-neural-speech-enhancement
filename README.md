@@ -30,9 +30,9 @@ Indicates the original clean utterance ID from the CHiME2 dataset.
 #### `filename`
 Each folder contains three 16kHz `.wav` files.
 
-+ `clean.wav` is the original clean utterance.
-+ `dirty.wav` is the original noisy utterance.
-+ `proc.wav` is the processed de-noised utterance by the corresponding SE model.
++ `dirty.wav` is the original (unprocessed) noisy utterance.
++ `proc.wav`  is the processed de-noised utterance by the corresponding SE model.
++ `clean.wav` is the clean target utterance.
 
 ## Abstract
 
