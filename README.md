@@ -40,11 +40,6 @@ Modern  speech  enhancement  algorithms  achieve  remarkable noise suppression b
 
 ## Perceptual Evaluation
 
-
-<object data="https://github.com/BoseCorp/efficient-neural-speech-enhancement/raw/master/preference_dot_bysnr_v3.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/BoseCorp/efficient-neural-speech-enhancement/raw/master/preference_dot_bysnr_v3.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/BoseCorp/efficient-neural-speech-enhancement/raw/master/preference_dot_bysnr_v3.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![Fig. 2](https://github.com/BoseCorp/efficient-neural-speech-enhancement/blob/master/preference_dot_bysnr_v3.png?raw=true)
 
 Preference of perceptual study participants for enhanced audio vs. unprocessed audio for both fully-realized and pruned \& quantized models across input SNR's. Left is Pruned (INT8) 1 and right is Pruned (INT8) 2.
