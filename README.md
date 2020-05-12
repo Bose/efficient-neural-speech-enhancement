@@ -16,9 +16,9 @@ audio
  ```
 #### `model_name`
 Corresponds to the model name from the paper.
-+ `baseline` -> baseline
-+ `pruned_and_quantized_1` -> Pruned (INT) 1
-+ `pruned_and_quantized_2` -> Pruned (INT) 2
++ `baseline` -> baseline (FP32)
++ `pruned_and_quantized_1` -> Pruned (INT8) 1
++ `pruned_and_quantized_2` -> Pruned (INT8) 2
 + `skip_rnn_pruned_and_quantized` -> SkipRNN Pruned and Quantized (not included in perceptual eval)
 
 #### `snr_level`
