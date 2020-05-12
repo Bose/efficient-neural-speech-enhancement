@@ -13,20 +13,20 @@ audio
             ├── dirty.wav
             └── proc.wav
  ```
-### `model_name`
+#### `model_name`
 Corresponds to the model name from the paper.
 + `baseline` -> baseline
 + `pruned_and_quantized_1` -> Pruned (INT) 1
 + `pruned_and_quantized_2` -> Pruned (INT) 2
 + `skip_rnn_pruned_and_quantized` -> SkipRNN Pruned and Quantized (not included in perceptual eval)
 
-### `snr_level`
+#### `snr_level`
 Ranges from -6 dB to 9 dB in 3dB increments. Indicates the original SNR level of the utterance from the CHiME2 dataset.
 
-### `utterance_id`
+#### `utterance_id`
 Indicates the original clean utterance ID from the CHiME2 dataset.
 
-### `filename`
+#### `filename`
 Each folder contains three 16kHz `.wav` files.
 
 + `clean.wav` is the original clean utterance.
@@ -35,6 +35,5 @@ Each folder contains three 16kHz `.wav` files.
 
 ## Abstract
 
-```
 Modern  speech  enhancement  algorithms  achieve  remarkablenoise suppression by means of large recurrent neural networks(RNNs).  However,  large RNNs limit practical deployment inhearing  aid  hardware  (HW)  form-factors,  which  are  batterypowered and run on resource-constrained microcontroller units(MCUs) with limited memory capacity and compute capabil-ity.   In  this  work,  we  use  model  compression  techniques  tobridge  this  gap.    We  define  the  constraints  imposed  on  theRNN by the HW and describe a method to satisfy them.  Al-though model compression techniques are an active area of re-search, we are the first to demonstrate their efficacy for RNNspeech enhancement, using pruning and integer quantization ofweights/activations. We also demonstrate state update skipping,which reduces the computational load.  Finally,  we conduct aperceptual evaluation of the compressed models to verify audioquality on human raters. Results show a reduction in model sizeand operations of 11.9×and 2.9×, respectively, over the base-line for compressed models, without a statistical difference inlistening preference and only exhibiting a loss of 0.55dB SDR.Our  model  achieves  a  computational  latency  of  2.39ms,  wellwithin the 10ms target and 351×better than previous work.
-```
+
