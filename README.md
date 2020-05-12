@@ -3,7 +3,7 @@ Audio samples used in perceptual evaluation for the paper "_Optimized Recurrent 
 
 ## Organization
 
-Audio files are organized in the below structure:
+Audio files are organized using the following folder structure:
 ```
 audio
 └── model_name
