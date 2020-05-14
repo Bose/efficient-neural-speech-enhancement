@@ -1,6 +1,6 @@
-# Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids
+# TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids
 
-Audio samples for the paper "_Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids_".
+Audio samples for the paper "_TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids_".
 
 ## Organization
 
