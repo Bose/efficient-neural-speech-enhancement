@@ -2,6 +2,10 @@
 
 Audio samples for the paper "_TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids_".
 
+## Abstract
+
+Modern  speech  enhancement  algorithms  achieve  remarkable noise suppression by means of large recurrent neural networks(RNNs).  However,  large RNNs limit practical deployment inhearing  aid  hardware (HW) form-factors, which are  battery powered and run on resource-constrained microcontroller units(MCUs) with limited memory capacity and compute capabil-ity.  In this work, we use model compression techniques to bridge this  gap.  We define the constraints imposed on  the RNN by the HW and describe a method to satisfy them.  Although model compression techniques are an active area of research, we are the first to demonstrate their efficacy for RNN speech enhancement using pruning and integer quantization of weights and activations. We also demonstrate state update skipping, which reduces the computational load.  Finally, we conduct a perceptual evaluation of the compressed models to verify audioquality on human raters. Results show a reduction in model sizeand operations of 11.9×and 2.9×, respectively, over the base-line for compressed models, without a statistical difference inlistening preference and only exhibiting a loss of 0.55dB SDR. Our model achieves a computational latency of  2.39ms, well within the 10ms target and 351× better than previous work.
+
 ## Organization
 
 Audio files are organized using the following folder structure:
@@ -34,12 +38,8 @@ Each folder contains three 16kHz `.wav` files.
 + `proc.wav`  is the processed de-noised utterance by the corresponding SE model.
 + `clean.wav` is the clean target utterance.
 
-## Abstract
-
-Modern  speech  enhancement  algorithms  achieve  remarkable noise suppression by means of large recurrent neural networks(RNNs).  However,  large RNNs limit practical deployment inhearing  aid  hardware (HW) form-factors, which are  battery powered and run on resource-constrained microcontroller units(MCUs) with limited memory capacity and compute capabil-ity.  In this work, we use model compression techniques to bridge this  gap.  We define the constraints imposed on  the RNN by the HW and describe a method to satisfy them.  Although model compression techniques are an active area of research, we are the first to demonstrate their efficacy for RNN speech enhancement using pruning and integer quantization of weights and activations. We also demonstrate state update skipping, which reduces the computational load.  Finally, we conduct a perceptual evaluation of the compressed models to verify audioquality on human raters. Results show a reduction in model sizeand operations of 11.9×and 2.9×, respectively, over the base-line for compressed models, without a statistical difference inlistening preference and only exhibiting a loss of 0.55dB SDR. Our model achieves a computational latency of  2.39ms, well within the 10ms target and 351× better than previous work.
-
 ## Perceptual Evaluation
 
 ![Fig. 2](https://github.com/BoseCorp/efficient-neural-speech-enhancement/blob/master/preference_dot_bysnr_v4.png?raw=true)
 
-Preference of perceptual study participants for enhanced audio vs. unprocessed audio for both fully-realized and pruned \& quantized models across input SNR's. Left is Pruned (INT8) 1 and right is Pruned (INT8) 2.
+Preference of perceptual study participants for enhanced audio vs. unprocessed audio for both compressed (Baseline) and pruned \& quantized (Pruned INT 8) models across input SNR's. Left is Pruned (INT8) 1 and right is Pruned (INT8) 2.
