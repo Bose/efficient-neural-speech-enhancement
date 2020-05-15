@@ -42,4 +42,4 @@ Each folder contains three 16kHz `.wav` files.
 
 ![Fig. 2](https://github.com/BoseCorp/efficient-neural-speech-enhancement/blob/master/preference_dot_bysnr_v4.png?raw=true)
 
-Preference of perceptual study participants for enhanced audio vs. unprocessed audio for both compressed (Baseline) and pruned \& quantized (Pruned INT 8) models across input SNR's. Left is Pruned (INT8) 1 and right is Pruned (INT8) 2.
+Preference of perceptual study participants (N = 50) for enhanced audio vs. unprocessed audio for both compressed (Baseline) and pruned \& quantized (Pruned INT 8) models across input SNR's. Left is Pruned (INT8) 1 and right is Pruned (INT8) 2.
