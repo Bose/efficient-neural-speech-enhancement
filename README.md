@@ -1,6 +1,6 @@
-# Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids
+# TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids
 
-Audio samples for the paper "_Optimized Recurrent Neural Network Architectures for Speech Enhancement in Hearing Aids_".
+Audio samples for the paper "_TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids_".
 
 ## Organization
 
@@ -30,9 +30,9 @@ Indicates the original clean utterance ID from the CHiME2 dataset.
 #### `filename`
 Each folder contains three 16kHz `.wav` files.
 
-+ `clean.wav` is the original clean utterance.
-+ `dirty.wav` is the original noisy utterance.
-+ `proc.wav` is the processed de-noised utterance by the corresponding SE model.
++ `dirty.wav` is the original (unprocessed) noisy utterance.
++ `proc.wav`  is the processed de-noised utterance by the corresponding SE model.
++ `clean.wav` is the clean target utterance.
 
 ## Abstract
 
@@ -40,11 +40,6 @@ Modern  speech  enhancement  algorithms  achieve  remarkable noise suppression b
 
 ## Perceptual Evaluation
 
-
-<object data="https://github.com/BoseCorp/efficient-neural-speech-enhancement/raw/master/preference_dot_bysnr_v3.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/BoseCorp/efficient-neural-speech-enhancement/raw/master/preference_dot_bysnr_v3.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/BoseCorp/efficient-neural-speech-enhancement/raw/master/preference_dot_bysnr_v3.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+![Fig. 2](https://github.com/BoseCorp/efficient-neural-speech-enhancement/blob/master/preference_dot_bysnr_v3.png?raw=true)
 
 Preference of perceptual study participants for enhanced audio vs. unprocessed audio for both fully-realized and pruned \& quantized models across input SNR's. Left is Pruned (INT8) 1 and right is Pruned (INT8) 2.
