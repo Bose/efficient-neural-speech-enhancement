@@ -1,6 +1,6 @@
 # TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids
 
-Audio samples for the paper "_TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids_".
+Audio samples for the paper "_[TinyLSTMs: Efficient Neural Speech Enhancement for Hearing Aids](https://arxiv.org/abs/2005.11138)_".
 
 ## Abstract
 
